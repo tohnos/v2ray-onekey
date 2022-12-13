@@ -204,7 +204,7 @@ systemctl status -l v2ray
 # 输出配置信息
 echo
 echo "域名: $domainName"
-echo "端口: 443"
+echo "端口: $port"
 echo "UUID: $uuid"
 [ "vless" = "$2" ] && echo "协议：vless" || echo "额外ID: 0"
 echo "安全: tls"
